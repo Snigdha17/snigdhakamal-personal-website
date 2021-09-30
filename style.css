@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap");
 
 :root {
-  --primary-color: orange;
+  --primary-color: #f9a826;
   --secondary-color: blue;
   --dark-gray: gray;
   --light-gray: #f3f4f6;
@@ -69,6 +69,10 @@ hr {
 /** lists **/
 .list-non-bullet {
   list-style: none;
+}
+
+#section-description {
+  padding: 1rem 1rem;
 }
 
 .list-item-inline {
@@ -157,4 +161,11 @@ hr {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+.blog-div {
+  margin: 3rem auto;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
 }
